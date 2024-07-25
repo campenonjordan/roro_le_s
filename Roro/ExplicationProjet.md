@@ -202,22 +202,3 @@
   # Appel de la fonction pour tester
   main()
   ```
-
-## Commentaires et TODOs
-
-- **Explication** : Utilise des commentaires pour expliquer ce que fait chaque partie de ton code. Cela aide à comprendre et maintenir le code.
-
-- **Ce qu'il ne faut pas faire** :
-
-  ```python
-  def ajouter_exercice(exercices):
-      details = input("Entrez l'exercice : ").split("-")
-      exercices.append(details)  # Erreur : Pas de commentaire expliquant le code
-  ```
-
-- **Ce qu'il faut faire** :
-
-  ```python
-  def ajouter_exercice(exercices):
-      # Demander à l'utilisateur d
-  ```
