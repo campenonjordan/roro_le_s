@@ -14,6 +14,6 @@ différence = a-b
 produit =a*b
 quotient = a/b
 
-print ("Si a = 15 et b = 7 alors : \na + b = {}\n".format(somme) + "a - b = {}\n".format(différence) + "a * b = {}\n".format(produit) + "a / b = {}".format(quotient))
+print (f"Si a = 15 et b = 7 alors : \na + b = {somme}\n" + f"a - b = {différence}\n" + f"a * b = {produit}\n" + f"a / b = {quotient}")
 
 

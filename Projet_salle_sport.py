@@ -6,7 +6,7 @@ def afficher_menu():
     print("\tMenu progamme sport")
     print("************************************")
     print("Voici les choix possibles : ")
-    print("1 : Ajouter un excercie.")
+    print("1. Ajouter un excercie.")
     print("2. Voir la liste d'exercies.")
     print("3. Calculer les calories brulees.")
     print("4. Quitter le menu")
@@ -15,9 +15,8 @@ def afficher_menu():
 
 # Fonction pour ajouter un exercice à la liste
 def ajouter_exercice(exercices):
-    details = input("Entre vos excercies de la façon suivante : Nom exercice-duree en mintes-calories brulee par minutes (ex : pompe-15-12)\t").split("-")
+    exercices = input("Entre vos excercies de la façon suivante : Nom exercice-duree en mintes-calories brulee par minutes (ex : pompe-15-12)\t").split("-")
     print("Exercice ajouté : {}\nTemps de l'exercie en minute : {}\nTes calories brulées par minute : {} ".format(exercices[0], exercices[1], exercices[2] ))
-    exercices.append(details)
 
     # TODO: Demander à l'utilisateur d'entrer les détails de l'exercice
     # TODO: Ajouter l'exercice à la liste des exercices
